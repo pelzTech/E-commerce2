@@ -1,0 +1,20 @@
+.filter-bar {
+    padding: 1rem 0;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .filter-bar-container {
+    margin-bottom: 2rem;
+  }
+  
+  .text-md-end {
+    text-align: end !important;
+  }
+  
+  @media (max-width: 768px) {
+    .filter-bar-container {
+      margin-bottom: 1rem;
+    }
+  }
+  

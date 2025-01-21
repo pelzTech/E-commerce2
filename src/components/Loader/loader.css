@@ -1,0 +1,25 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #600f37;
+    background-color: #f4f6f9; /* Light background for contrast */
+}
+
+.loader-container .react-spinner-loader {
+    animation: pulse 1.2s ease-in-out infinite;
+    color: #600f37;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}

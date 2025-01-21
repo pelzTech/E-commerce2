@@ -1,0 +1,109 @@
+.product-card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .product-card-container {
+    margin-bottom: 20px; /* Space between rows */
+    padding: 10px; /* Internal padding */
+  }
+  
+  .product-card-container:hover {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transform: translateY(-5px);
+  }
+  
+  .product-card-container:not(:last-child) {
+    margin-right: 10px; /* Space between columns */
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-details {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .product-name:hover {
+    color: #0f3460;
+  }
+  
+  .product-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-rating i {
+    color: #f7b924;
+    font-size: 14px;
+    margin-right: 3px;
+  }
+  
+  .rating-count {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f3460;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #0f3460;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0c2a4a;
+  }
+  

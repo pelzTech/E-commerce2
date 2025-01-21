@@ -1,0 +1,165 @@
+
+.payment-page {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.payment-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.payment-container p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #666;
+}
+
+/* Payment Options */
+.payment-options {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.payment-option {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-option:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.payment-option img {
+  max-width: 80px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.payment-option p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Payment Form */
+.payment-form {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.payment-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.payment-form label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.payment-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.payment-form .submit-btn {
+  padding: 0.8rem 1rem;
+  background-color: #17203dcf;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.payment-form .submit-btn:hover {
+  background-color: #17203D;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .payment-options {
+    justify-content: center;
+  }
+
+  .payment-option {
+    width: 120px;
+    height: 120px;
+  }
+
+  .payment-option img {
+    max-width: 60px;
+  }
+
+  .payment-container {
+    padding: 1.5rem;
+  }
+
+  .payment-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .payment-form h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .payment-option {
+    width: 100px;
+    height: 100px;
+  }
+
+  .payment-option img {
+    max-width: 50px;
+  }
+
+  .payment-form {
+    padding: 1rem;
+  }
+
+  .payment-form h3 {
+    font-size: 1rem;
+  }
+}
