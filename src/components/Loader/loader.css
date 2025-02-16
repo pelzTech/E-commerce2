@@ -4,7 +4,7 @@
     align-items: center;
     height: 100vh;
     color: #600f37;
-    background-color: #f4f6f9; /* Light background for contrast */
+    background-color: #f4f6f9;
 }
 
 .loader-container .react-spinner-loader {

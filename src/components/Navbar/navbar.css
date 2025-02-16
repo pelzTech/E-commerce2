@@ -11,25 +11,24 @@
   color: rgb(172, 12, 12);
 }
 
-/* Style the link around the logo to be a flex container */
+
 .navbar-brand .logo-link {
   display: flex;
-  align-items: center; /* Vertically center the items (icon and text) */
-  text-decoration: none; /* Remove underline from the link */
+  align-items: center; 
+  text-decoration: none; 
 }
 
-/* Style the logo icon */
 .navbar-brand .logo-link ion-icon {
   color: #600f37;
-  font-size: 1.5rem; /* Adjust the size of the bag icon */
-  margin-right: 10px; /* Space between the icon and the text */
+  font-size: 1.5rem; 
+  margin-right: 10px; 
 }
 
-/* Ensure the logo text is aligned properly */
+
 .navbar-brand .logo-link .logo {
   margin: 0;
-  font-size: 1.5rem; /* Adjust the font size of the logo text */
-  font-weight: bold; /* Optional: Make the logo text bold */
+  font-size: 1.5rem; 
+  font-weight: bold; 
   color: black;
 }
 

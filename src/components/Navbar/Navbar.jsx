@@ -27,17 +27,16 @@ const NavBar = () => {
     >
       <Container className="navbar-container">
       <Navbar.Brand>
-          {/* Link added to redirect to the homepage when the logo is clicked */}
+         
           <Link to="/" className="logo-link">
             <ion-icon name="bag"></ion-icon>
             <h1 className="logo">SavvyMart</h1>
           </Link>
         </Navbar.Brand>
 
-        {/* Media cart and toggle */}
         <div className="d-flex">
           <div className="media-cart">
-            {/* Removed the user icon */}
+            
             <Link
               aria-label="Go to Cart Page"
               to="/cart"

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="footer-row">
-          {/* Brand Information */}
+        
           <Col lg={4} md={6} sm={12} className="footer-col">
             <div className="footer-brand">
               <h1 className="footer-logo">SavvyMart</h1>
@@ -27,7 +27,7 @@ const Footer = () => {
               <li>Cosmetics</li>
             </ul>
           </Col>
-          {/* Customer Support */}
+        
           <Col lg={3} md={6} sm={6} className="footer-col">
             <h2 className="footer-heading">Customer Support</h2>
             <ul className="footer-links">
@@ -38,7 +38,7 @@ const Footer = () => {
               <li>Contact Support</li>
             </ul>
           </Col>
-          {/* Contact Information */}
+       
           <Col lg={3} md={6} sm={12} className="footer-col">
             <h2 className="footer-heading">Contact Us</h2>
             <ul className="footer-contact">
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
           </Col>
         </Row>
-        {/* Footer Bottom */}
+       
         <div className="footer-bottom">
           <p>&copy; 2024 SavvyMart. All rights reserved.</p>
         </div>

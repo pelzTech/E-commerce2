@@ -1,4 +1,4 @@
-// Import necessary assets from the 'assets/images' directory
+
 import sofaSlide from '../assets/images/sofarslide.jpg';
 import phone08 from '../assets/images/phone08.png';
 import wireless01 from '../assets/images/wireless01.png';
@@ -14,21 +14,20 @@ import hairCareImg from '../assets/images/hair2.jpg';
 import perfume_02 from '../assets/images/perfume3.jpg';
 import perfume_03 from '../assets/images/perfume4.jpg';
 import perfume_04 from '../assets/images/perfume5.jpg';
-import mensHoodieImg from '../assets/images/men2.jpg'; // Update the path if needed
-import mensChinosImg from '../assets/images/men3.jpg'; // Update the path if needed
-import femaleOutfitImg1 from '../assets/images/female2.jpg'; // Replace with actual image path
-import femaleOutfitImg2 from '../assets/images/female3.jpg'; // Replace with actual image path
-import cosmeticsTravelKitImg from '../assets/images/cosmetic2.jpg'; // Replace with actual image path
-import cosmeticsSetImg from '../assets/images/cosmetic4.jpg'; // Replace with actual image path
-import luxuryHairBrushSetImg from '../assets/images/hair3.jpg'; // Replace with actual image path
-import hairCareSetImg from '../assets/images/hair4.jpg'; // Replace with actual image path
-
-
-// Additional Cosmetics Products
+import mensHoodieImg from '../assets/images/men2.jpg'; 
+import mensChinosImg from '../assets/images/men3.jpg'; 
+import femaleOutfitImg1 from '../assets/images/female2.jpg'; 
+import femaleOutfitImg2 from '../assets/images/female3.jpg'; 
+import cosmeticsTravelKitImg from '../assets/images/cosmetic2.jpg'; 
+import cosmeticsSetImg from '../assets/images/cosmetic4.jpg';
+import luxuryHairBrushSetImg from '../assets/images/hair3.jpg'; 
+import hairCareSetImg from '../assets/images/hair4.jpg'; 
 
 
 
-// Slider Data
+
+
+
 export const SliderData = [
   {
     id: 1,
@@ -62,7 +61,7 @@ export const serviceData = [
     icon: <ion-icon name="rocket"></ion-icon>,
     title: 'Fast & Reliable Delivery',
     subtitle: 'Experience quick, reliable, and hassle-free delivery right to your door.',
-    bg: '#f0f4f8', // Subtle light blue for reliability
+    bg: '#f0f4f8', 
   },
   {
     icon: <ion-icon name="lock-closed"></ion-icon>,
